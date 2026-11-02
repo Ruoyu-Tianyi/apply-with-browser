@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "ApplyPilot · 网申助手",
+  "version": "0.1.0",
+  "description": "本地资料管理、网申填写预览，以及连接 Codex 的浏览器助手。",
+  "minimum_chrome_version": "116",
+  "permissions": ["storage", "activeTab", "scripting", "sidePanel"],
+  "host_permissions": ["http://127.0.0.1:17321/*"],
+  "action": {"default_title": "打开 ApplyPilot"},
+  "background": {"service_worker": "background.js"},
+  "side_panel": {"default_path": "panel.html"}
+}

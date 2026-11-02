@@ -1,0 +1,9 @@
+node_modules/
+.local/
+.tools/
+playwright-report/
+test-results/
+*.zip
+.env*
+materials/
+profiles/
