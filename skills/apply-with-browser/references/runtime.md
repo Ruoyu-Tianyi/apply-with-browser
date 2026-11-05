@@ -25,13 +25,13 @@
 ## OpenClaw
 
 - 把完整的 `apply-with-browser/` 放进当前 Agent 的 `<workspace>/skills/`，保留 `references/`。用 `openclaw skills list` 检查发现结果。多个 Agent 各有工作区，先确定本次会话实际使用哪一个。[技能发现规则](https://docs.openclaw.ai/tools/skills)
-- 使用浏览器插件提供的 `browser` 工具，确认工具已对当前 Agent 开放。先列出标签页并快照目标页，显式绑定当前工具返回的浏览器配置和目标标识。区分隔离的 `openclaw` 配置与用于接手已登录 Chrome 的 `user` 配置。接手现有会话时，以本机版本支持的方式完成 Chrome 授权。[浏览器设置](https://docs.openclaw.ai/tools/browser/setup) · [连接现有 Chrome 会话](https://docs.openclaw.ai/tools/browser/existing-session)
+- 使用 OpenClaw 的 `browser` 工具，确认工具已对当前 Agent 开放。先列出标签页并快照目标页，显式绑定当前工具返回的浏览器配置和目标标识。区分隔离的 `openclaw` 配置与用于接手已登录 Chrome 的 `user` 配置。接手现有会话时，以本机版本支持的方式完成 Chrome 授权。[浏览器设置](https://docs.openclaw.ai/tools/browser/setup) · [连接现有 Chrome 会话](https://docs.openclaw.ai/tools/browser/existing-session)
 - 本机、网关、节点和沙箱可能在不同设备。确认浏览器连接归属和文件可达性。按当前工具能力使用输入、下拉或文件选择，避免假定现有会话和托管浏览器的能力完全一致。
 
 ## Codex
 
 - 在本项目可按 `AGENTS.md` 直接读取此 Skill。需要自动发现时，将完整目录放在 Codex 可发现的项目或个人 Skills 目录。[Codex Skills](https://developers.openai.com/codex/skills)
-- 用当前可用的浏览器工具连接已打开页面，并读取该工具的使用说明。只有本次已连接且支持的操作才能执行。项目旧版 ApplyPilot 扩展和 MCP 仅支持标准表单字段与文件输入的有限操作。
+- 用当前可用的浏览器工具连接已打开页面，并读取该工具的使用说明。只有本次已连接且支持的操作才能执行。
 
 ## 其他 Agent Skills 客户端
 

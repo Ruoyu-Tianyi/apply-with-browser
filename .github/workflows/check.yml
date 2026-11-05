@@ -1,16 +1,14 @@
-name: Check
+name: Check Skill packages
 on: [push, pull_request]
 jobs:
-  test:
+  package:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-python@v5
         with:
-          node-version: 22
-          cache: npm
-      - run: npm ci
-      - run: npm run check
-      - run: npm test
-      - run: npx playwright install --with-deps chromium
-      - run: npm run test:browser
+          python-version: '3.12'
+      - run: python scripts/package_skill.py --output-dir "$RUNNER_TEMP/skill-packages"
+      - run: |
+          python -m zipfile -t "$RUNNER_TEMP/skill-packages/apply-with-browser-standard.zip"
+          python -m zipfile -t "$RUNNER_TEMP/skill-packages/apply-with-browser-workbuddy.zip"

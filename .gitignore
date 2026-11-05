@@ -1,8 +1,6 @@
 node_modules/
 .local/
-.tools/
-playwright-report/
-test-results/
+__pycache__/
 *.zip
 .env*
 materials/

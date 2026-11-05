@@ -33,8 +33,8 @@ def workbuddy_entrypoint(source: str) -> str:
         "description": description,
         "description_zh": "根据用户资料填写并核验网申与在线简历。",
         "description_en": "Fill and verify applications and online resumes using the user's materials.",
-        "version": "1.0.0",
-        "author": "ApplyPilot contributors",
+        "version": "1.0.1",
+        "author": "Apply with Browser contributors",
     }
     header = "\n".join(
         f"{key}: {json.dumps(value, ensure_ascii=False)}" for key, value in fields.items()
