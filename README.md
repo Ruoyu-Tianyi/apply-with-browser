@@ -4,7 +4,7 @@
 
 ## 第一次使用
 
-1. 打开适合你的发布页，从附件下载 ZIP。[WorkBuddy 版 Release](https://github.com/Ruoyu-Tianyi/applypilot-codex/releases/tag/skill-v1.0.1-workbuddy) · [OpenClaw、Codex 等通用版 Release](https://github.com/Ruoyu-Tianyi/applypilot-codex/releases/tag/skill-v1.0.1-standard) · [两版合集](https://github.com/Ruoyu-Tianyi/applypilot-codex/releases/tag/skill-v1.0.1)
+1. 打开适合你的发布页，从附件下载 ZIP。[WorkBuddy 版 Release](https://github.com/Ruoyu-Tianyi/apply-with-browser/releases/tag/skill-v1.0.1-workbuddy) · [OpenClaw、Codex 等通用版 Release](https://github.com/Ruoyu-Tianyi/apply-with-browser/releases/tag/skill-v1.0.1-standard) · [两版合集](https://github.com/Ruoyu-Tianyi/apply-with-browser/releases/tag/skill-v1.0.1)
 2. 按下表安装。在 Agent 已连接的浏览器中打开招聘表单或在线简历，登录后停在填写页。
 3. 在 Agent 对话中发送下面这句话。有可用的简历文件时，附上文件或给出它的路径。Skill 会识别页面与资料，并只询问继续填写所需的缺项。
 
