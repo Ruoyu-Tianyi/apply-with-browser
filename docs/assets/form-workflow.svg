@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="354" viewBox="0 0 1040 354" role="img" aria-labelledby="title description">
+  <title id="title">从简历到已核对的网申表单</title>
+  <desc id="description">使用虚构资料演示：填写姓名和学校，保留已有邮箱，毕业日期缺少具体日时留待确认。</desc>
+  <style>
+    text { font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; fill: #14243a; }
+    .heading { font-size: 23px; font-weight: 700; }
+    .label { font-size: 15px; }
+    .muted { fill: #506279; }
+    .card-title { font-size: 18px; font-weight: 700; }
+    .value { font-size: 16px; font-weight: 600; }
+    .chip { font-size: 14px; font-weight: 600; }
+  </style>
+  <rect width="1040" height="354" rx="24" fill="#edf2f9"/>
+  <text x="32" y="44" class="heading">从简历到网申表单</text>
+  <text x="1008" y="43" class="label muted" text-anchor="end">虚构资料 · 流程示意</text>
+
+  <rect x="32" y="66" width="310" height="247" rx="16" fill="#fff" stroke="#ccd7e5"/>
+  <rect x="50" y="84" width="34" height="34" rx="9" fill="#e7eefe"/>
+  <path d="M61 93h8l4 4v12H61z M69 93v5h4 M64 102h6m-6 3h6" fill="none" stroke="#274fba" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="96" y="106" class="card-title">简历</text>
+  <path d="M50 130H324 M50 182H324 M50 234H324" stroke="#e1e8f0"/>
+  <text x="51" y="162" class="label muted">姓名</text>
+  <text x="175" y="162" class="value">林晓</text>
+  <text x="51" y="214" class="label muted">学校</text>
+  <text x="175" y="214" class="value">示例大学</text>
+  <text x="51" y="266" class="label muted">预计毕业</text>
+  <text x="175" y="266" class="value">2027 年 6 月</text>
+
+  <circle cx="379" cy="185" r="20" fill="#254fbd"/>
+  <path d="M370 185h17m-6-6 6 6-6 6" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="416" y="66" width="592" height="247" rx="16" fill="#fff" stroke="#ccd7e5"/>
+  <rect x="434" y="84" width="34" height="34" rx="9" fill="#e7eefe"/>
+  <rect x="442" y="93" width="18" height="15" rx="2" fill="none" stroke="#274fba" stroke-width="1.4"/>
+  <path d="M442 98h18m-14 4h8" stroke="#274fba" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="480" y="106" class="card-title">当前申请表</text>
+  <path d="M434 130H990 M434 173H990 M434 215H990 M434 257H990" stroke="#e1e8f0"/>
+
+  <text x="437" y="157" class="label muted">姓名</text>
+  <text x="570" y="157" class="value">林晓</text>
+  <rect x="896" y="137" width="94" height="28" rx="14" fill="#e6f5ed"/>
+  <text x="943" y="156" class="chip" style="fill:#176045" text-anchor="middle">已补填</text>
+
+  <text x="437" y="199" class="label muted">学校</text>
+  <text x="570" y="199" class="value">示例大学</text>
+  <rect x="896" y="179" width="94" height="28" rx="14" fill="#e6f5ed"/>
+  <text x="943" y="198" class="chip" style="fill:#176045" text-anchor="middle">已补填</text>
+
+  <text x="437" y="241" class="label muted">联系邮箱</text>
+  <text x="570" y="241" class="value">lin@example.com</text>
+  <rect x="896" y="221" width="94" height="28" rx="14" fill="#e8eef8"/>
+  <text x="943" y="240" class="chip" style="fill:#334f7f" text-anchor="middle">保留原值</text>
+
+  <text x="437" y="283" class="label muted">毕业日期</text>
+  <text x="570" y="283" class="value">请确认具体日</text>
+  <rect x="896" y="263" width="94" height="28" rx="14" fill="#fdf0dc"/>
+  <text x="943" y="282" class="chip" style="fill:#775019" text-anchor="middle">待确认</text>
+
+  <text x="32" y="337" class="label muted">按资料补填 · 读回核对 · 最终由你提交</text>
+</svg>
